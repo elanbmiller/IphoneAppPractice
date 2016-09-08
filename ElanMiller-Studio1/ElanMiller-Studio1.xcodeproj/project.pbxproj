@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6807C17D1D81B9FD00EE8177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6807C17C1D81B9FD00EE8177 /* AppDelegate.swift */; };
+		6807C17F1D81B9FD00EE8177 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6807C17E1D81B9FD00EE8177 /* ViewController.swift */; };
+		6807C1821D81B9FD00EE8177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6807C1801D81B9FD00EE8177 /* Main.storyboard */; };
+		6807C1841D81B9FD00EE8177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6807C1831D81B9FD00EE8177 /* Assets.xcassets */; };
+		6807C1871D81B9FD00EE8177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6807C1851D81B9FD00EE8177 /* LaunchScreen.storyboard */; };
+		6807C1921D81B9FE00EE8177 /* ElanMiller_Studio1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6807C1911D81B9FE00EE8177 /* ElanMiller_Studio1Tests.swift */; };
+		6807C19D1D81B9FE00EE8177 /* ElanMiller_Studio1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6807C19C1D81B9FE00EE8177 /* ElanMiller_Studio1UITests.swift */; };
+		6807C1AB1D81BB5D00EE8177 /* Wash-U-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6807C1AA1D81BB5D00EE8177 /* Wash-U-Logo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6807C18E1D81B9FE00EE8177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6807C1711D81B9FD00EE8177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6807C1781D81B9FD00EE8177;
+			remoteInfo = "ElanMiller-Studio1";
+		};
+		6807C1991D81B9FE00EE8177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6807C1711D81B9FD00EE8177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6807C1781D81B9FD00EE8177;
+			remoteInfo = "ElanMiller-Studio1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6807C1791D81B9FD00EE8177 /* ElanMiller-Studio1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ElanMiller-Studio1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6807C17C1D81B9FD00EE8177 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6807C17E1D81B9FD00EE8177 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6807C1811D81B9FD00EE8177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6807C1831D81B9FD00EE8177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6807C1861D81B9FD00EE8177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6807C1881D81B9FD00EE8177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6807C18D1D81B9FE00EE8177 /* ElanMiller-Studio1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ElanMiller-Studio1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6807C1911D81B9FE00EE8177 /* ElanMiller_Studio1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElanMiller_Studio1Tests.swift; sourceTree = "<group>"; };
+		6807C1931D81B9FE00EE8177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6807C1981D81B9FE00EE8177 /* ElanMiller-Studio1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ElanMiller-Studio1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6807C19C1D81B9FE00EE8177 /* ElanMiller_Studio1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElanMiller_Studio1UITests.swift; sourceTree = "<group>"; };
+		6807C19E1D81B9FE00EE8177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6807C1AA1D81BB5D00EE8177 /* Wash-U-Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Wash-U-Logo.jpg"; path = "../../Wash-U-Logo.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6807C1761D81B9FD00EE8177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6807C18A1D81B9FE00EE8177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6807C1951D81B9FE00EE8177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6807C1701D81B9FD00EE8177 = {
+			isa = PBXGroup;
+			children = (
+				6807C17B1D81B9FD00EE8177 /* ElanMiller-Studio1 */,
+				6807C1901D81B9FE00EE8177 /* ElanMiller-Studio1Tests */,
+				6807C19B1D81B9FE00EE8177 /* ElanMiller-Studio1UITests */,
+				6807C17A1D81B9FD00EE8177 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6807C17A1D81B9FD00EE8177 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6807C1791D81B9FD00EE8177 /* ElanMiller-Studio1.app */,
+				6807C18D1D81B9FE00EE8177 /* ElanMiller-Studio1Tests.xctest */,
+				6807C1981D81B9FE00EE8177 /* ElanMiller-Studio1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6807C17B1D81B9FD00EE8177 /* ElanMiller-Studio1 */ = {
+			isa = PBXGroup;
+			children = (
+				6807C17C1D81B9FD00EE8177 /* AppDelegate.swift */,
+				6807C17E1D81B9FD00EE8177 /* ViewController.swift */,
+				6807C1801D81B9FD00EE8177 /* Main.storyboard */,
+				6807C1AA1D81BB5D00EE8177 /* Wash-U-Logo.jpg */,
+				6807C1831D81B9FD00EE8177 /* Assets.xcassets */,
+				6807C1851D81B9FD00EE8177 /* LaunchScreen.storyboard */,
+				6807C1881D81B9FD00EE8177 /* Info.plist */,
+			);
+			path = "ElanMiller-Studio1";
+			sourceTree = "<group>";
+		};
+		6807C1901D81B9FE00EE8177 /* ElanMiller-Studio1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6807C1911D81B9FE00EE8177 /* ElanMiller_Studio1Tests.swift */,
+				6807C1931D81B9FE00EE8177 /* Info.plist */,
+			);
+			path = "ElanMiller-Studio1Tests";
+			sourceTree = "<group>";
+		};
+		6807C19B1D81B9FE00EE8177 /* ElanMiller-Studio1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6807C19C1D81B9FE00EE8177 /* ElanMiller_Studio1UITests.swift */,
+				6807C19E1D81B9FE00EE8177 /* Info.plist */,
+			);
+			path = "ElanMiller-Studio1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6807C1781D81B9FD00EE8177 /* ElanMiller-Studio1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6807C1A11D81B9FE00EE8177 /* Build configuration list for PBXNativeTarget "ElanMiller-Studio1" */;
+			buildPhases = (
+				6807C1751D81B9FD00EE8177 /* Sources */,
+				6807C1761D81B9FD00EE8177 /* Frameworks */,
+				6807C1771D81B9FD00EE8177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ElanMiller-Studio1";
+			productName = "ElanMiller-Studio1";
+			productReference = 6807C1791D81B9FD00EE8177 /* ElanMiller-Studio1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6807C18C1D81B9FE00EE8177 /* ElanMiller-Studio1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6807C1A41D81B9FE00EE8177 /* Build configuration list for PBXNativeTarget "ElanMiller-Studio1Tests" */;
+			buildPhases = (
+				6807C1891D81B9FE00EE8177 /* Sources */,
+				6807C18A1D81B9FE00EE8177 /* Frameworks */,
+				6807C18B1D81B9FE00EE8177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6807C18F1D81B9FE00EE8177 /* PBXTargetDependency */,
+			);
+			name = "ElanMiller-Studio1Tests";
+			productName = "ElanMiller-Studio1Tests";
+			productReference = 6807C18D1D81B9FE00EE8177 /* ElanMiller-Studio1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6807C1971D81B9FE00EE8177 /* ElanMiller-Studio1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6807C1A71D81B9FE00EE8177 /* Build configuration list for PBXNativeTarget "ElanMiller-Studio1UITests" */;
+			buildPhases = (
+				6807C1941D81B9FE00EE8177 /* Sources */,
+				6807C1951D81B9FE00EE8177 /* Frameworks */,
+				6807C1961D81B9FE00EE8177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6807C19A1D81B9FE00EE8177 /* PBXTargetDependency */,
+			);
+			name = "ElanMiller-Studio1UITests";
+			productName = "ElanMiller-Studio1UITests";
+			productReference = 6807C1981D81B9FE00EE8177 /* ElanMiller-Studio1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6807C1711D81B9FD00EE8177 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wustl;
+				TargetAttributes = {
+					6807C1781D81B9FD00EE8177 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6807C18C1D81B9FE00EE8177 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6807C1781D81B9FD00EE8177;
+					};
+					6807C1971D81B9FE00EE8177 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6807C1781D81B9FD00EE8177;
+					};
+				};
+			};
+			buildConfigurationList = 6807C1741D81B9FD00EE8177 /* Build configuration list for PBXProject "ElanMiller-Studio1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6807C1701D81B9FD00EE8177;
+			productRefGroup = 6807C17A1D81B9FD00EE8177 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6807C1781D81B9FD00EE8177 /* ElanMiller-Studio1 */,
+				6807C18C1D81B9FE00EE8177 /* ElanMiller-Studio1Tests */,
+				6807C1971D81B9FE00EE8177 /* ElanMiller-Studio1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6807C1771D81B9FD00EE8177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6807C1871D81B9FD00EE8177 /* LaunchScreen.storyboard in Resources */,
+				6807C1AB1D81BB5D00EE8177 /* Wash-U-Logo.jpg in Resources */,
+				6807C1841D81B9FD00EE8177 /* Assets.xcassets in Resources */,
+				6807C1821D81B9FD00EE8177 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6807C18B1D81B9FE00EE8177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6807C1961D81B9FE00EE8177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6807C1751D81B9FD00EE8177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6807C17F1D81B9FD00EE8177 /* ViewController.swift in Sources */,
+				6807C17D1D81B9FD00EE8177 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6807C1891D81B9FE00EE8177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6807C1921D81B9FE00EE8177 /* ElanMiller_Studio1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6807C1941D81B9FE00EE8177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6807C19D1D81B9FE00EE8177 /* ElanMiller_Studio1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6807C18F1D81B9FE00EE8177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6807C1781D81B9FD00EE8177 /* ElanMiller-Studio1 */;
+			targetProxy = 6807C18E1D81B9FE00EE8177 /* PBXContainerItemProxy */;
+		};
+		6807C19A1D81B9FE00EE8177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6807C1781D81B9FD00EE8177 /* ElanMiller-Studio1 */;
+			targetProxy = 6807C1991D81B9FE00EE8177 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6807C1801D81B9FD00EE8177 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6807C1811D81B9FD00EE8177 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6807C1851D81B9FD00EE8177 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6807C1861D81B9FD00EE8177 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6807C19F1D81B9FE00EE8177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6807C1A01D81B9FE00EE8177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6807C1A21D81B9FE00EE8177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ElanMiller-Studio1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wustl.ElanMiller-Studio1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6807C1A31D81B9FE00EE8177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ElanMiller-Studio1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wustl.ElanMiller-Studio1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6807C1A51D81B9FE00EE8177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ElanMiller-Studio1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wustl.ElanMiller-Studio1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElanMiller-Studio1.app/ElanMiller-Studio1";
+			};
+			name = Debug;
+		};
+		6807C1A61D81B9FE00EE8177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ElanMiller-Studio1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wustl.ElanMiller-Studio1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElanMiller-Studio1.app/ElanMiller-Studio1";
+			};
+			name = Release;
+		};
+		6807C1A81D81B9FE00EE8177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ElanMiller-Studio1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wustl.ElanMiller-Studio1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ElanMiller-Studio1";
+			};
+			name = Debug;
+		};
+		6807C1A91D81B9FE00EE8177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ElanMiller-Studio1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wustl.ElanMiller-Studio1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ElanMiller-Studio1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6807C1741D81B9FD00EE8177 /* Build configuration list for PBXProject "ElanMiller-Studio1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6807C19F1D81B9FE00EE8177 /* Debug */,
+				6807C1A01D81B9FE00EE8177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6807C1A11D81B9FE00EE8177 /* Build configuration list for PBXNativeTarget "ElanMiller-Studio1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6807C1A21D81B9FE00EE8177 /* Debug */,
+				6807C1A31D81B9FE00EE8177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6807C1A41D81B9FE00EE8177 /* Build configuration list for PBXNativeTarget "ElanMiller-Studio1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6807C1A51D81B9FE00EE8177 /* Debug */,
+				6807C1A61D81B9FE00EE8177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6807C1A71D81B9FE00EE8177 /* Build configuration list for PBXNativeTarget "ElanMiller-Studio1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6807C1A81D81B9FE00EE8177 /* Debug */,
+				6807C1A91D81B9FE00EE8177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6807C1711D81B9FD00EE8177 /* Project object */;
+}

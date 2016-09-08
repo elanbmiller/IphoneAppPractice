@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ElanMiller_Studio1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qcw-my-L9G">
+                                <rect key="frame" x="276" y="422" width="51" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="SSr-gB-TQb"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="switchAction" destination="BYZ-38-t0r" eventType="valueChanged" id="WoZ-Rk-va9"/>
+                                </connections>
+                            </switch>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wash-U-Logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Usv-DK-fbj">
+                                <rect key="frame" x="160" y="114" width="280" height="273"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="cQB-Ip-z2L"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello WashU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7SD-qA-pVA">
+                                <rect key="frame" x="230" y="38" width="141" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="141" id="2g2-FX-Eqf"/>
+                                    <constraint firstAttribute="height" constant="68" id="GPj-67-h4p"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.49649389199999999" green="1" blue="0.3022779679" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="Qcw-my-L9G" firstAttribute="top" secondItem="Usv-DK-fbj" secondAttribute="bottom" constant="35" id="Gi3-GM-oe3"/>
+                            <constraint firstItem="7SD-qA-pVA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="18" id="HSg-Ae-OMc"/>
+                            <constraint firstItem="7SD-qA-pVA" firstAttribute="centerX" secondItem="Usv-DK-fbj" secondAttribute="centerX" id="a40-mM-9Lq"/>
+                            <constraint firstItem="Usv-DK-fbj" firstAttribute="top" secondItem="7SD-qA-pVA" secondAttribute="bottom" constant="8" symbolic="YES" id="hvv-qm-fgo"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Qcw-my-L9G" secondAttribute="bottom" constant="147" id="iHB-cT-6MC"/>
+                            <constraint firstItem="7SD-qA-pVA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oBc-W7-JZA"/>
+                            <constraint firstItem="Usv-DK-fbj" firstAttribute="centerX" secondItem="Qcw-my-L9G" secondAttribute="centerX" id="qOl-mK-Bv3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Image" destination="Usv-DK-fbj" id="vXK-3a-aZh"/>
+                        <outlet property="Switch" destination="Qcw-my-L9G" id="NtA-0p-5T5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="429"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Wash-U-Logo.jpg" width="564" height="552"/>
+    </resources>
+</document>
