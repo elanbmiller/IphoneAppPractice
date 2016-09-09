@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ElanMiller_Lab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shopping Calculator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p20-0A-6Yg">
+                                <rect key="frame" x="222" y="28" width="156" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pqw-Qz-xFv">
+                                <rect key="frame" x="281" y="81" width="39" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zIV-2i-Np8">
+                                <rect key="frame" x="252" y="112" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="ANk-ma-Ofp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="updatePrice:" destination="BYZ-38-t0r" eventType="editingChanged" id="sil-cY-BUW"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discount %" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4g-yX-ZcP">
+                                <rect key="frame" x="257" y="175" width="86" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sales Tax %" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zRd-RP-9uO">
+                                <rect key="frame" x="255" y="265" width="90" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KmQ-W6-yxY">
+                                <rect key="frame" x="252" y="294" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="updatePrice:" destination="BYZ-38-t0r" eventType="editingChanged" id="65S-aT-3cu"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Final Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NbK-u6-PUG">
+                                <rect key="frame" x="261" y="358" width="79" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TDs-iI-pS4">
+                                <rect key="frame" x="283" y="387" width="35" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="€0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fl2-8Q-Vkj">
+                                <rect key="frame" x="283" y="416" width="35" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c4N-v5-iYK">
+                                <rect key="frame" x="252" y="204" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="updatePrice:" destination="BYZ-38-t0r" eventType="editingChanged" id="5j5-0d-C3h"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="p20-0A-6Yg" firstAttribute="centerX" secondItem="Pqw-Qz-xFv" secondAttribute="centerX" id="0aY-WV-0Dm"/>
+                            <constraint firstItem="TDs-iI-pS4" firstAttribute="leading" secondItem="fl2-8Q-Vkj" secondAttribute="leading" id="2RH-ha-0l4"/>
+                            <constraint firstItem="fl2-8Q-Vkj" firstAttribute="top" secondItem="TDs-iI-pS4" secondAttribute="bottom" constant="8" symbolic="YES" id="2f2-KC-OKw"/>
+                            <constraint firstItem="p20-0A-6Yg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="CnB-Zn-Yi5"/>
+                            <constraint firstItem="K4g-yX-ZcP" firstAttribute="centerX" secondItem="c4N-v5-iYK" secondAttribute="centerX" id="DYx-4G-EaD"/>
+                            <constraint firstItem="zRd-RP-9uO" firstAttribute="top" secondItem="c4N-v5-iYK" secondAttribute="bottom" constant="32" id="LPB-gb-tJo"/>
+                            <constraint firstItem="Pqw-Qz-xFv" firstAttribute="top" secondItem="p20-0A-6Yg" secondAttribute="bottom" constant="32" id="OBM-JY-klz"/>
+                            <constraint firstItem="TDs-iI-pS4" firstAttribute="top" secondItem="NbK-u6-PUG" secondAttribute="bottom" constant="8" symbolic="YES" id="UWX-YJ-xt4"/>
+                            <constraint firstItem="KmQ-W6-yxY" firstAttribute="top" secondItem="zRd-RP-9uO" secondAttribute="bottom" constant="8" symbolic="YES" id="VOB-zd-tSo"/>
+                            <constraint firstItem="NbK-u6-PUG" firstAttribute="centerX" secondItem="TDs-iI-pS4" secondAttribute="centerX" id="X9E-Xe-oFe"/>
+                            <constraint firstItem="zIV-2i-Np8" firstAttribute="trailing" secondItem="c4N-v5-iYK" secondAttribute="trailing" id="bwo-XF-Vig"/>
+                            <constraint firstItem="zIV-2i-Np8" firstAttribute="leading" secondItem="c4N-v5-iYK" secondAttribute="leading" id="e8j-e1-wcy"/>
+                            <constraint firstItem="zRd-RP-9uO" firstAttribute="centerX" secondItem="KmQ-W6-yxY" secondAttribute="centerX" id="eRa-aT-BBt"/>
+                            <constraint firstItem="p20-0A-6Yg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fLE-aL-5q9"/>
+                            <constraint firstItem="c4N-v5-iYK" firstAttribute="trailing" secondItem="KmQ-W6-yxY" secondAttribute="trailing" id="kc8-1E-SRi"/>
+                            <constraint firstItem="c4N-v5-iYK" firstAttribute="top" secondItem="K4g-yX-ZcP" secondAttribute="bottom" constant="7" id="mts-zo-U2Q"/>
+                            <constraint firstItem="zIV-2i-Np8" firstAttribute="top" secondItem="Pqw-Qz-xFv" secondAttribute="bottom" constant="10" id="pJW-5r-YEc"/>
+                            <constraint firstItem="K4g-yX-ZcP" firstAttribute="top" secondItem="zIV-2i-Np8" secondAttribute="bottom" constant="33" id="qj0-ab-YHP"/>
+                            <constraint firstItem="NbK-u6-PUG" firstAttribute="top" secondItem="KmQ-W6-yxY" secondAttribute="bottom" constant="34" id="suP-DV-h2t"/>
+                            <constraint firstItem="KmQ-W6-yxY" firstAttribute="centerX" secondItem="NbK-u6-PUG" secondAttribute="centerX" id="u2c-Tt-flG"/>
+                            <constraint firstItem="c4N-v5-iYK" firstAttribute="leading" secondItem="KmQ-W6-yxY" secondAttribute="leading" id="weD-mZ-l7u"/>
+                            <constraint firstItem="Pqw-Qz-xFv" firstAttribute="centerX" secondItem="zIV-2i-Np8" secondAttribute="centerX" id="wm3-Od-LhE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Discount" destination="c4N-v5-iYK" id="c52-qu-rf8"/>
+                        <outlet property="FinalPrice" destination="TDs-iI-pS4" id="mab-Kt-D55"/>
+                        <outlet property="FinalPriceEuro" destination="fl2-8Q-Vkj" id="3at-z9-2z8"/>
+                        <outlet property="InitPrice" destination="zIV-2i-Np8" id="vgp-XR-g5W"/>
+                        <outlet property="SaleTax" destination="KmQ-W6-yxY" id="BD9-4t-igc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
